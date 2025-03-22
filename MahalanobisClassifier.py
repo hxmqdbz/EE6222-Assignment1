@@ -33,9 +33,9 @@ class MahalanobisClassifier:
         return np.array(predictions)
 
 
-# 示例用法
+#测试数据
 if __name__ == "__main__":
-    # 生成示例数据
+    # 生成测试数据
     np.random.seed(42)
     X_class1 = np.random.multivariate_normal(mean=[2, 2], cov=[[1, 0.5], [0.5, 1]], size=50)
     X_class2 = np.random.multivariate_normal(mean=[6, 6], cov=[[1, -0.3], [-0.3, 1]], size=50)

@@ -61,7 +61,7 @@ class LDA:
         return self.transform(X)
 
 
-# 示例用法
+#测试数据
 if __name__ == "__main__":
     np.random.seed(42)
     X_class1 = np.random.multivariate_normal(mean=[2, 2], cov=np.eye(2), size=50)

@@ -51,7 +51,7 @@ class LDA_MahalanobisClassifier:
         return np.array(predictions)
 
 
-# 示例用法
+
 if __name__ == "__main__":
     #np.random.seed(42)
     #X_class1 = np.random.multivariate_normal(mean=[2, 2, 2], cov=np.eye(3), size=50)
@@ -73,7 +73,7 @@ if __name__ == "__main__":
         print("i:", i, "accuracy:", np.mean(predictions == y_test))
         # print(f"马哈拉诺比斯分类器在 CIFAR-10 上的准确率: {accuracy:.4f}")
     plt.plot(division, accuracy)
-    plt.xlabel("Division")
+    plt.xlabel("Dimension")
     plt.ylabel("Accuracy")
     plt.show()
 

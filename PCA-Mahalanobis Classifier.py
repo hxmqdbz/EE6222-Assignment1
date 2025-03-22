@@ -56,7 +56,7 @@ class PCA_MahalanobisClassifier:
         return np.array(predictions)
 
 
-# 示例用法
+
 if __name__ == "__main__":
     #np.random.seed(42)
     #X_class1 = np.random.multivariate_normal(mean=[2, 2, 2], cov=np.eye(3), size=50)

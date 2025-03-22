@@ -49,9 +49,9 @@ class PCA:
         return self.transform(X)
 
 
-# 示例用法
+# 测试
 if __name__ == "__main__":
-    # 生成示例数据
+    # 生成测试数据
     np.random.seed(42)
     X = np.random.rand(100, 5)  # 100个样本，5个特征
 
