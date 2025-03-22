@@ -11,4 +11,7 @@ After that we collect both the accuracy of PCA and LDA on the test dataset with 
 accuracy with dimension.
 3、what is include:
 The code include PCA method,LDA method and a mahalanobis classifier.
-PCA method:
+PCA method:PCA.py
+LDA methid:LDA.py
+combine of PCA-Mahalanobis:PCA-Mahalanobis Classifier.py
+combine of LDA-Mahalanobis:LDA-Mahalanobis Classifier.py
