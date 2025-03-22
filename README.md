@@ -10,7 +10,7 @@ Combine PCA and LDA method with Mahalanobis classifier,and train it on training 
 After that we collect both the accuracy of PCA and LDA on the test dataset with different remain devisions, and then draw them  into a graphic to conclude the change of accuracy with dimension.  
 ### 3、what is include:  
 The code include PCA method,LDA method and a mahalanobis classifier.  
-PCA method: PCA.py  
-LDA methid: LDA.py  
-combine of PCA-Mahalanobis: PCA-Mahalanobis Classifier.py  
-combine of LDA-Mahalanobis: LDA-Mahalanobis Classifier.py  
+**PCA method:** PCA.py  
+**LDA methid:** LDA.py  
+**combine of PCA-Mahalanobis:** PCA-Mahalanobis Classifier.py  
+**combine of LDA-Mahalanobis:** LDA-Mahalanobis Classifier.py  
